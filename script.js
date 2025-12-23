@@ -3,7 +3,7 @@
 // ========================================
 
 // FECHA DE INICIO DE LA RELACIÓN (formato: AAAA-MM-DD)
-const FECHA_INICIO = '2021-02-22'; // ⬅️ CAMBIA ESTA FECHA
+const FECHA_INICIO = '2022-02-23'; // ⬅️ CAMBIA ESTA FECHA
 
 // FRASE PARA EL EFECTO DE ESCRITURA
 const FRASE_PROMESA = 'Contigo encontré mi hogar, mi paz y mi felicidad infinita';
@@ -106,9 +106,9 @@ function configurarMusica() {
     const boton = document.getElementById('music-btn');
     
     // OPCIONAL: Descomentar y agregar URL de música
-    // const urlMusica = 'URL_DE_TU_MUSICA.mp3';
-    // audioElement = new Audio(urlMusica);
-    // audioElement.loop = true;
+     const urlMusica = 'musica.mp3';
+     audioElement = new Audio(urlMusica);
+     audioElement.loop = true;
     
     boton.addEventListener('click', () => {
         if (!audioElement) {
@@ -162,4 +162,5 @@ function inicializar() {
 // ========================================
 // EJECUTAR AL CARGAR LA PÁGINA
 // ========================================
+
 document.addEventListener('DOMContentLoaded', inicializar);
