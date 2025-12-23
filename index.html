@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para el Amor de Mi Vida ❤️</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Contenedor de corazones flotantes -->
+    <div id="hearts-container"></div>
+
+    <!-- Botón de música -->
+    <button id="music-btn" class="music-button" aria-label="Reproducir música">
+        🎵
+    </button>
+
+    <div class="container">
+        <!-- Sección 1: Pantalla de Bienvenida -->
+        <section class="welcome-section fade-in">
+            <div class="sparkle">✨</div>
+            <h1 class="main-title">Para el amor de mi vida ❤️</h1>
+            <div class="subtitle">
+                <span class="heart-icon">❤️</span>
+                <p>3 años y 10 meses juntos</p>
+                <span class="heart-icon">❤️</span>
+            </div>
+        </section>
+
+        <!-- Sección 2: Mensaje Principal -->
+        <section class="message-section card fade-in">
+            <h2 class="section-title">Lo que mi corazón quiere decirte</h2>
+            
+            <!-- TEXTO EDITABLE AQUÍ -->
+            <div class="message-content">
+                <p>
+                    Mi amor, desde el día en que llegaste a mi vida, todo cambió. Cada amanecer es más brillante, 
+                    cada momento más significativo, y cada día es una nueva oportunidad para amarte más.
+                </p>
+                <p>
+                    En estos <strong>3 años y 10 meses</strong>, has sido mi refugio, mi inspiración y mi mayor bendición. 
+                    Gracias por tu paciencia, por tu amor incondicional, por cada sonrisa que ilumina mis días 
+                    y por ser exactamente quien eres.
+                </p>
+                <p>
+                    No hay palabras suficientes para expresar lo agradecido que estoy por tenerte a mi lado. 
+                    Eres mi compañera de vida, mi mejor amiga, y el amor que siempre soñé encontrar.
+                </p>
+                <p class="highlight">
+                    Te amo más de lo que las palabras pueden expresar, hoy y siempre. ❤️
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección 3: Contador de Tiempo -->
+        <section class="time-section card fade-in">
+            <h2 class="section-title-white">Nuestro Tiempo Juntos</h2>
+            <div class="time-grid">
+                <div class="time-box">
+                    <div class="time-number" id="years">3</div>
+                    <div class="time-label">Años</div>
+                </div>
+                <div class="time-box">
+                    <div class="time-number" id="months">10</div>
+                    <div class="time-label">Meses</div>
+                </div>
+                <div class="time-box">
+                    <div class="time-number" id="days">0</div>
+                    <div class="time-label">Días</div>
+                </div>
+            </div>
+            <p class="time-footer">Y cada día que pasa, te amo más ✨</p>
+        </section>
+
+        <!-- Sección 4: Frase Especial con Typing Effect -->
+        <section class="promise-section card fade-in">
+            <h3 class="section-title">Mi Promesa</h3>
+            <p class="typing-text">
+                "<span id="typed-text"></span><span class="cursor">|</span>"
+            </p>
+        </section>
+
+        <!-- Sección 5: Botón Sorpresa -->
+        <section class="surprise-section fade-in">
+            <button id="surprise-btn" class="surprise-button">
+                🎁 Mensaje Especial
+            </button>
+            
+            <div id="surprise-message" class="surprise-content hidden">
+                <p class="surprise-title">🌹 Para mi princesa 🌹</p>
+                <p class="surprise-text">
+                    ✨ “Hoy celebramos 3 años y 10 meses juntos, y no puedo evitar sentirme agradecido por cada instante a tu lado. Hemos pasado por momentos difíciles, pero lo más importante es que seguimos aquí, unidos, con un amor que se fortalece cada día. A pesar de las pruebas, nuestro cariño siempre ha sido más grande que cualquier obstáculo. Gracias por caminar conmigo en este viaje, por tu paciencia, tu ternura y por recordarme que el verdadero amor no se rinde. Te amo con todo mi corazón, y estoy feliz de seguir construyendo nuestra historia juntos.” ❤️
+
+
+                </br></p><br>Cada día a tu lado es un regalo. Prometo seguir cuidándote, amándote y 
+                    construyendo junto a ti el futuro más hermoso que podamos imaginar. 
+                    Gracias por elegirme, por creer en nosotros y por llenar mi vida de amor.
+                    <br><br>
+                    <span class="surprise-highlight">Eres y serás siempre mi todo. 💕</span>
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección 6: Mensaje Final -->
+        <section class="final-section card fade-in">
+            <p class="final-message">Gracias por ser mi compañera de vida</p>
+            <p class="signature-label">Con todo mi amor,</p>
+            <p class="signature-name">Marco ❤️</p>
+            <div class="hearts-animation">
+                <span class="pulse-heart">❤️</span>
+                <span class="pulse-heart">❤️</span>
+                <span class="pulse-heart">❤️</span>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
